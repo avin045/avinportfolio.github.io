@@ -4008,6 +4008,9 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
   vertical-align: baseline;
   border-radius: 0.25em;
 }
+
+/* alter */ 
+
 .label:empty {
   display: none;
 }
@@ -4058,6 +4061,7 @@ a.label:hover {
 }
 .label-danger {
   background-color: #d9534f;
+  /* background-color: #050505; */
 }
 .label-danger[href]:focus,
 .label-danger[href]:hover {
@@ -4735,16 +4739,25 @@ button.close {
     display: none !important;
   }
 }
-body {
+/* body {
   background-image: -webkit-linear-gradient(top, #ff0060, #ff6975);
   background-image: -o-linear-gradient(top, #ff0060 0, #ff6975 100%);
   background-image: linear-gradient(180deg, #ff0060 0, #ff6975);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF0060",endColorstr="#FFFF6975",GradientType=0);
-}
+} */
 body.white {
   background-color: #fff;
   background-image: none;
+}
+
+body {
+  /* Gradient pick */
+  background-image: -webkit-radial-gradient(#461852e1, #ff6975);
+  background-image: -o-radial-gradient(top, #ce2b85f6 0, #ff6975);
+  background-image: radial-gradient(90deg, #ff0060 0, #ff6975);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF0060",endColorstr="#FFFF6975",GradientType=0);
 }
 .white-text-container .fa-icon,
 .white-text-container a,
